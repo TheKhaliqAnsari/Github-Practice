@@ -51,3 +51,24 @@ or staging the we do git restore.
 Merge conflicts will occur if multiple people are working on same code base.
 
 Merge conflicts are hectic
+
+
+
+### How internally git works?
+
+Git is heavily works with Hashing and Graph/Tree Data structure.
+
+Git is like key value store.
+
+Key -> Hash of the data
+Value -> Actual Data
+
+git uses a cryto-graphic hash function -> SHA 1 
+For given data it outputs 40 digits hexadecimal number and the hash value is always some for same data.
+
+Git compresses the data in a blob and stores some metadata about data.
+
+
+
+`Stash` -> where we can save our un-committed stuff. Like some times we wants config files but we don't want to add them in commits so 
+we can put them in stash.
