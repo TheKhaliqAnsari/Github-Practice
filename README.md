@@ -48,4 +48,6 @@ or staging the we do git restore.
     - git pull
     - git push
 
+Merge conflicts will occur if multiple people are working on same code base.
+
 Merge conflicts are hectic
