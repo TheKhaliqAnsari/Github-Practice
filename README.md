@@ -8,7 +8,6 @@ When we do `git status` and we see a bunch of `untracked files` than these are a
 
 3. `Stage Area` -> What all files are going to be part of the next version that we will create, This staging area is the place where git knows what changes will be done from the last version 
 to next version.
-
 Command:- `git add .`
 
 Now if we want to remove this file from staging area we need to use Command
@@ -26,8 +25,7 @@ already manages them and knows their version history.
 
 7. `commit` -> Commit is a particular version of the project. It captures a snapshot of the project's staged changes and created a version out of it.
 
-8. `git commit` - Registers staging changes to a commit.
-
+8. `git commit` - Registers staging changes to a commit you need to pass message using -m attribute.
 
 9. `git log` -> will show all the commit history.
 
