@@ -73,14 +73,35 @@ Git compresses the data in a blob and stores some metadata about data.
 `Stash` -> where we can save our un-committed stuff. Like some times we wants config files but we don't want to add them in commits so 
 we can put them in stash.
 
-We need to put file in stagging area than we need to run command.
+### We need to put file in stagging area than we need to run command.
 
 `git stash`
 
-After that we can check files in stash area by running command.
+### After that we can check files in stash area by running command.
 
 `git stash list`
 
-Stash follow last in first out property so we we want last stash code to come than you can use
+### Stash follow last in first out property so we we want last stash code to come than you can use
 
 `git stash apply`
+
+### If you want to put perticular stash code back than we can use
+
+`git stash apply stash{stash_number}`
+
+
+### If you want to stash untrack (working area) file you can use
+
+`git stash --include-untracked -- filename
+
+### if you want to remove stash and add it to code base again than you can do
+
+`git stash pop`
+
+### if you get back the file and want to remove stash from stash area you can do
+
+`git stash drop stash@{stash_number}`
+
+### if you want to remove everything from stash you can do
+
+`git stash clear`
