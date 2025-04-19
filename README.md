@@ -47,3 +47,5 @@ or staging the we do git restore.
     - git commit
     - git pull
     - git push
+
+Merge conflicts are hectic
