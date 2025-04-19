@@ -38,3 +38,12 @@ now no more want it. Instead of deleting every changes line by line, we can rest
 ans: If you want to move the whole file back to the untracked state, then we do git rm, otherwise if we just want the changes to be moved in working area 
 or staging the we do git restore.
 
+13. `git pull <remote_name> <branch_name>` -> Downloads lates changes from the branch of the mentioned remote in your local repo.
+
+
+### Recommended Practice
+    - make changes
+    - git add <file>
+    - git commit
+    - git pull
+    - git push
