@@ -72,3 +72,15 @@ Git compresses the data in a blob and stores some metadata about data.
 
 `Stash` -> where we can save our un-committed stuff. Like some times we wants config files but we don't want to add them in commits so 
 we can put them in stash.
+
+We need to put file in stagging area than we need to run command.
+
+`git stash`
+
+After that we can check files in stash area by running command.
+
+`git stash list`
+
+Stash follow last in first out property so we we want last stash code to come than you can use
+
+`git stash apply`
